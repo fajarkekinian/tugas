@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCC"
+    android:paddingTop="1dp"
+    android:stretchColumns="0"
+    android:id="@+id/tlTable01">
+
+    <TableRow
+        android:background="#CCC"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp">
+    </TableRow>
+    <TableRow
+        android:background="#CCC"
+        android:paddingRight="1dp">
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:text="200109112"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="Fajar Apri Setiaji"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="hahahahahahah"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="676777"/>
+        <TextView
+            android:layout_marginLeft="1dp"
+            android:padding="5dp"
+            android:background="#FFF"
+            android:gravity="right"
+            android:text="676777"/>
+
+    </TableRow>
+
+</TableLayout>
+

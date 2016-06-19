@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="webs.sistemmanajemenkontrolproyek.InputProyek">
+
+
+        <EditText
+            android:id="@+id/id"
+            android:hint="Id Proyek"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/namapro"
+            android:hint="Nama Proyek"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/anggaran"
+            android:hint="Anggaran"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/waktu"
+            android:hint="Waktu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/karyawan"
+            android:hint="Karyawan Terlibat"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="100dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/dua"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/tiga"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/empat"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            
+            <Button
+                android:id="@+id/save"
+                android:text="Save"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="160dp"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>

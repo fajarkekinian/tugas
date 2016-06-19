@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Input Data Karyawan"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/button2"
+        android:text="Input Data Proyek"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/button3"
+        android:text="Input Data Kegiatan"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/button4"
+        android:text="Lihat Data"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/button5"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/button"/>
+
+</LinearLayout>

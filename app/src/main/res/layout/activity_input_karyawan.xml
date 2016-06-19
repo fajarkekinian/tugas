@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".InputKaryawan">
+
+
+
+        <EditText
+            android:id="@+id/nik"
+            android:hint="NIk"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/tgl_lahir"
+            android:hint="Tanggal Lahir"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/jenis_kelamin"
+            android:hint="Jenis Kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/agama"
+            android:hint="Agama"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:text="Save"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="160dp"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
